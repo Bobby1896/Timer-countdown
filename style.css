@@ -140,10 +140,10 @@ footer {
   opacity: 1;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 768px) {
   .all-counts {
     gap: 10px;
-    /* grid-template-columns: repeat(4, 100px); */
+    grid-template-columns: repeat(4, 100px);
   }
 
   .count-down {
